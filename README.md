@@ -5,6 +5,7 @@ Tecnologias:
 * [NodeJS](https://nodejs.org/en/)
 * [ExpressJS](https://expressjs.com/)
 * [Yarn](https://yarnpkg.com/)
+* [MongoDB](https://www.mongodb.com/)
 
 ## Como executar
 Faça o clone/download deste repositório, execute `yarn install`. Logo em seguida você pode executar a API como desenvolvedor pelo comando `yarn dev` tendo acesso aos logs, ou mesmo como prod pelo comando `yarn start`. A API fica localizada em `http://localhost:3000`.
@@ -14,7 +15,7 @@ Crie um arquivo .env na raiz do seu projeto com as seguintes variáveis de ambie
 
 ```
 APP_URL=http://localhost:3000
-MONGO_URL= *YOUR MONGO URL*
+MONGO_URL= *Sua URL do MongoDB*
 ```
 
 ## Rotas
